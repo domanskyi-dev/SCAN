@@ -1,0 +1,24 @@
+@import 'fonts.css';
+
+:root {
+    /* colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-green: #029491;
+    --color-yellow: #FFB64F;
+    --color-cyan: #7CE3E1;
+    --color-blue: #5970FF;
+    --color-light-blue: #3BA5E0;
+    --color-gray: #949494;
+    --color-light-gray: #D9D9D9;
+    --color-light-gray-opacity-0-3: rgba(217, 217, 217, .3);
+    --color-light-gray2: #C7C7C7;
+    --color-light-gray3: #D2D2D2;
+    --color-red: #FF5959;
+    --color-red-opacity-0-2: rgba(255, 89, 89, 0.2);
+    --color-light-green: #8AC540;
+
+    /* fonts */
+    --font-inter: 'Inter', sans-serif;
+    --font-ferry: 'Ferry', sans-serif;
+}

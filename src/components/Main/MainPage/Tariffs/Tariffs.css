@@ -1,0 +1,293 @@
+.tariffs__cards-container {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tariffs__cards-item {
+    width: 415px;
+    height: 540px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.tariffs__card-header {
+    height: 132px;
+    padding: 30px 0 34px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.border__Beginner {
+    border: 2px solid var(--color-yellow);
+}
+
+.border__Pro {
+    border: 2px solid var(--color-cyan);
+}
+
+.border__Business {
+    border: 2px solid var(--color-black);
+}
+
+.background__Beginner {
+    background-image: url('../../../../assets/images/image-bulb.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px top 11px;
+    background-color: var(--color-yellow);
+    color : var(--color-black);
+}
+
+.background__Pro {
+    background-image: url('../../../../assets/images/image-target.svg');
+    background-repeat: no-repeat;
+    background-position: right 35px top 22px;
+    background-color: var(--color-cyan);
+    color : var(--color-black);
+}
+
+.background__Business {
+    background-image: url('../../../../assets/images/image-notebook.svg');
+    background-repeat: no-repeat;
+    background-position: right 5px top 23px;
+    background-color: var(--color-black);
+    color : var(--color-white);
+}
+
+.tariffs__card-title {
+    font-size: 30px;
+    letter-spacing: 0.01em;
+}
+
+.tariffs__card-title > h3 {
+    font-weight: 500;
+}
+
+.tariffs__card-description {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+}
+
+.tariffs__card-content {
+    height: 408px;
+    padding: 12px 0 24px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tariffs__card-price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.tariffs__card-badge {
+    visibility: hidden;
+    padding: 3px 14px;
+    align-self: end;
+    margin-right: 10px; 
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+    border-radius: 10px;
+}
+
+.tariffs__card-badge-visible {
+    visibility: visible;
+}
+
+.tariffs__card-price-value {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-bottom: 10px;
+}
+
+.tariffs__card-price-new {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.tariffs__card-price-old {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.tariffs__card-payment {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+}
+
+.tarriffs__card-benefits-title {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.tarriffs__card-benefits-title > h4 {
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.tarriffs__card-benefits-list {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    margin-top: 10px;
+}
+
+.tarriffs__card-benefits-item {
+    display: flex;
+    margin-top: 5px;
+}
+
+.tarriffs__card-benefits-icon {
+    margin-right: 8px;
+}
+
+.tariffs__card-button {
+    width: 355px;
+    height: 59px;
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-size: 20px;
+    letter-spacing: 0.01em;
+}
+
+.tariffs__card-button-current {
+    background-color: var(--color-light-gray3);
+    color: var(--color-black);
+}
+
+.tariffs__card-button:hover {
+    background-color: var(--color-light-blue);
+}
+
+@media (width <= 1400px) {
+    .tariffs__cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 43px;
+    }
+}
+
+@media (width <= 1015px) {
+    .tariffs__cards-container {
+        padding: 53px 0;
+    }
+
+    .tariffs__cards-item {
+        width: 375px;
+        height: 526px;
+    }
+    
+    .tariffs__card-header {
+        padding: 30px 0 34px 27px;
+        background-size: 20%;
+    }
+
+    .tariffs__card-title {
+        font-size: 26px;
+    }
+    
+    .tariffs__card-content {
+        height: 394px;
+        padding: 16px 0 31px 27px;
+    }
+    
+    .tariffs__card-price-value {
+        gap: 15px;
+    }
+
+    .tariffs__card-button {
+        width: 320px;
+    }
+}
+
+@media (width <= 490px) {
+    .tariffs__card-badge-visible {
+        visibility: hidden;
+    }
+}
+
+@media (width <= 430px) {
+    .tariffs__cards-container {
+        padding: 37px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+        justify-content: space-between;
+    }
+    
+    .tariffs__cards-item {
+        width: 335px;
+        height: 512px;
+    }
+    
+    .tariffs__card-header {
+        padding: 30px 0 34px 24px;
+        background-size: 20%;
+    }
+
+    .background__Beginner {
+        background-position: right 5px top 13px;
+    }
+    
+    .background__Pro {
+        background-position: right 16px top 18px;
+    }
+    
+    .background__Business {
+        background-position: right 10px top 15px;
+    }
+    
+    .tariffs__card-title {
+        font-size: 20px;
+    }
+    
+    .tariffs__card-content {
+        height: 380px;
+        padding: 20px 0 31px 24px;
+    }
+    
+    .tariffs__card-price-value {
+        gap: 10px;
+    }
+    
+    .tariffs__card-payment {
+        width: 273px;
+    }
+    
+    .tarriffs__card-benefits-title {
+        font-size: 18px;
+    }
+
+    .tarriffs__card-benefits-list {
+        font-size: 16px;
+    }
+    
+    .tarriffs__card-benefits-item {
+        margin-top: 8px;
+    }
+    
+    .tarriffs__card-benefits-icon {
+        width: 16px;
+        height: 20px;
+        margin-right: 7px;
+    }
+
+    .tariffs__card-button {
+        width: 286px;
+        font-size: 18px;
+    }
+}

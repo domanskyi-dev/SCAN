@@ -1,0 +1,35 @@
+/* inter-regular - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/inter-v18-cyrillic_latin-regular.woff2') format('woff2'),
+}
+
+/* inter-500 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/inter-v18-cyrillic_latin-500.woff2') format('woff2'), 
+}
+
+/* inter-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/inter-v18-cyrillic_latin-700.woff2') format('woff2'), 
+}
+
+/* ferry-black-900 */
+@font-face {
+    font-display: swap;
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../assets/fonts/Ferry-Black.woff2') format('woff2');
+}

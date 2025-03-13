@@ -1,0 +1,124 @@
+.search__container {
+    padding: 69px 0 64px 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.search__title {
+    padding-left: 7px;
+    font-family: var(--font-ferry);
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    position: relative;
+}
+
+.search__title::after {
+    content: "";
+    position: absolute;
+    top: 63px;
+    right: 411px;
+    background-image: url('../../../assets/images/background_search_page_1.svg');
+    background-size: contain;
+    width: 91px;
+    height: 112px;
+}
+
+.search__appeal {
+    width: 100%;
+    padding: 25px 0 47px 7px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    position: relative;
+}
+
+.search__appeal::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 82px;
+    background-image: url('../../../assets/images/background_search_page_2.svg');
+    width: 140px;
+    height: 68px;
+}
+
+.search__appeal > span {
+    letter-spacing: 0.03em;
+}
+
+@media (width <= 1205px) {
+    .search__title::after {
+        top: 63px;
+        left: 625px;
+
+    }
+
+    .search__appeal::after {
+        display: none;
+    }
+}
+
+@media (width <= 805px) {
+    .search__container {
+        padding: 69px 0 32px 53px;
+    }
+
+    .search__title {
+        font-size: 34px;
+    }
+
+    .search__title::after {
+        top: 63px;
+        left: 525px;
+        width: 75px;
+        height: 91px;
+    }  
+}
+
+@media (width <= 680px) {
+    .search__container {
+        padding: 20px 0 25px;
+    }
+
+    .search__title {
+        padding-left: 14px;
+    }
+
+    .search__appeal {
+        padding: 25px 0 47px 14px;
+    }
+}
+
+@media (width <= 625px) {
+    .search__title {
+        font-size: 28px;
+        letter-spacing: 0.01em;
+    }
+
+    .search__appeal {
+        font-size: 18px;
+    }
+
+    .search__title::after {
+        top: 63px;
+        left: 425px;
+        width: 58px;
+        height: 71px;
+    } 
+}
+
+@media (width <= 490px) {
+    .search__title {
+        width: 300px;
+    }
+
+    .search__appeal {
+        width: 300px;
+    }
+
+    .search__title::after {
+        top: 100px;
+        left: 295px;
+    }
+}

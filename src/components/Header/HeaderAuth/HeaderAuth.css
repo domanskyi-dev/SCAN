@@ -1,0 +1,64 @@
+.header__auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__auth-link {
+    padding: 5px 18px 5px min(4vw, 49px);
+    opacity: 0.4;
+    border-right: 2px solid var(--color-green);
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+
+.header__login-button {
+    width: 65px;
+    height: 26px;
+    background-color: var(--color-cyan);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.01em
+}
+
+.header__login-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-green);
+}
+
+@media (width <= 724px) {
+    .header__auth {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 322px;
+        right: 0;
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__mobile-auth {
+        display: flex;
+    }
+
+    .header__auth-link {
+        font-size: 16px;
+        color: var(--color-white);
+    }
+
+    .header__login-button {
+        width: 295px;
+        height: 52px;
+        font-size: 20px;
+    }
+
+    .header__login-button:hover {
+        background-color: var(--color-light-gray);
+        color: var(--color-black);
+    }
+}
