@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {useNavigate} from "react-router";
 import {Link} from "react-router";
 import { useAuth } from "../../../../context/AuthContext.js";
-import { authService } from "../../../../services/AuthService.js";
+import { authService } from "../../../../services/authService.js";
 import google from '../../../../assets/images/logo_google.svg';
 import facebook from '../../../../assets/images/logo_facebook.svg';
 import yandex from '../../../../assets/images/logo_yandex.svg';
