@@ -24,7 +24,8 @@
 - React Router (маршрутизация)
 - Context Api (управление состоянием)
 - Axios (HTTP-клиент)
-
+Дополнительно:
+- Верстка страниц по макету [figma](https://www.figma.com/design/u3MOjzYnTnirz712GrLbFv/Макет-СКАН?node-id=0-1&p=f)
 ##  Структура проекта
 
 ```
